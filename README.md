@@ -28,8 +28,9 @@ O projeto "Meus Interesses" é uma aplicação web simples que permite aos usuá
  Siga estes passos para instalar o projeto localmente:
 
 1. Clone o repositório:
-   git clone 
-2. Navegue até o diretório do projeto:
+   git clone https://github.com/rafaelscdev/MiniProjeto_Meus_Interesses.git
+
+2. Navegue até o diretório do projeto e execute com o Visual Studio Code ou outra IDE de sua preferência.
 
 ## Funcionalidades ##
 Adicionar interesses ou hobbies.
