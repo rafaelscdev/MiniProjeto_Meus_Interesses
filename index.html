@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>M1S09 [Mini-projeto] - Meus interesses</title>
+    <link rel="stylesheet" href="assets/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@10.16.3/dist/sweetalert2.min.css">
+</head>
+<body>
+    <main class="container">
+        <header>
+            <img src="assets/logotipo.png" alt="LAB365">
+            <h1>Meus interesses</h1>
+        </header>
+        <div class="form">
+            <input type="text" placeholder="Digite algum interesse ou hobbie" id="interest-input">
+            <button class="button-add">Adicionar</button>
+        </div>
+
+        <div class="list">
+            <div>
+                <strong>Lista:</strong>
+                <button class="button-clear">Limpar lista</button>
+            </div>
+            <ul id="taskList">
+                <!-- Inclua os interesses aqui -->
+            </ul>
+        </div>
+    </main>
+
+    <div class="news">
+        <div>
+            <span>Noticia patrocinada</span>
+        </div>
+        <p class="title-news-today">
+            <!-- Inclua aqui a noticia em destaque -->
+        </p>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10.16.3/dist/sweetalert2.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
